@@ -54,7 +54,7 @@ const AutoInfiniteScrollCarousel = () => {
   }, [rerender, xTranslation, duration, width]);
 
   return (
-    <section className="py-2">
+    <section className="py-2 relative">
       <motion.div
         className="absolute left-0 flex gap-4 py-8"
         style={{ x: xTranslation }}
