@@ -5,7 +5,7 @@ import image2 from "@/public/image-2.jpg";
 
 const ImageFitTest = () => {
     return (
-        <section className="pt-72 flex gap-x-5">
+        <section className="flex gap-x-5">
             <div className="size-[200px] relative">
                 <Image src={image1} alt="test-photo-1" className="object-cover absolute inset-0 w-full h-full rounded-2xl" />
             </div>
