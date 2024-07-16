@@ -4,6 +4,7 @@ import ImageFitTest from "./_components/ImageFitTest";
 import { ScrollAnimations } from "./_components/ScrollAnimations";
 import HorizontalScrollCarousel from "./_components/HorizontalScrollCarousel";
 import MultiLayerParallax from "./_components/MultiLayerParallex";
+import AnimateSVG from "./_components/AnimateSVG";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ScrollAnimations />
       <HorizontalScrollCarousel />
       <MultiLayerParallax />
+      <AnimateSVG />
     </main>
   );
 }
